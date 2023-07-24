@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pypkg2"
+version = "1.0.0"
+dependencies = [
+  "asammdf"
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy",
+  "python-lsp-server",
+  "ruff",
+  "ruff-lsp",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]

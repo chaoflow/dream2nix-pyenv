@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -eux
+
+cd "$(dirname "$(realpath "$0")")"
+
+for name in \
+    pypkg1 \
+    pypkg2
+do
+    nix run -L .#${name}.config.lock.refresh
+done

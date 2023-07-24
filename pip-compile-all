@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -eux
+
+cd "$(dirname "$(realpath "$0")")"
+
+for dist in \
+    code/pypkg1 \
+    code/pypkg2
+do
+    cd $dist
+    pip-compile $* --allow-unsafe --generate-hashes pyproject.toml
+    pip-compile $* --allow-unsafe --generate-hashes --extra=dev --output-file=requirements-dev.txt pyproject.toml
+    cd -
+done
