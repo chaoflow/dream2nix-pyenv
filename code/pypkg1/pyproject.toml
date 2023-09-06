@@ -17,6 +17,7 @@ dev = [
   "python-lsp-server",
   "ruff",
   "ruff-lsp",
+  "sphinx",
 ]
 
 

@@ -50,7 +50,7 @@
 
           pip = {
             # NOTE: It would be nice to optionally passed via CLI, defaulting to today.
-            pypiSnapshotDate = "2023-07-25";
+            pypiSnapshotDate = "2023-09-06";
             requirementsFiles = [
               "code/${config.name}/requirements-dev.txt"
             ];
