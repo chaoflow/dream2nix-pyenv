@@ -1,158 +1,314 @@
 {
   "fetchPipMetadata": {
     "sources": {
+      "alabaster": {
+        "sha256": "1ee19aca801bbabb5ba3f5f258e4422dfa86f82f3e9cefb0859b283cdd7f62a3",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/64/88/c7083fc61120ab661c5d0b82cb77079fc1429d3f913a456c1c82cf4658f7/alabaster-0.7.13-py3-none-any.whl",
+        "version": "0.7.13"
+      },
       "attrs": {
         "sha256": "1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl",
         "version": "23.1.0"
       },
+      "babel": {
+        "sha256": "b4246fb7677d3b98f501a39d43396d3cafdc8eadb045f4a31be01863f655c610",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/df/c4/1088865e0246d7ecf56d819a233ab2b72f7d6ab043965ef327d0731b5434/Babel-2.12.1-py3-none-any.whl",
+        "version": "2.12.1"
+      },
       "cattrs": {
         "sha256": "b2bb14311ac17bed0d58785e5a60f022e5431aca3932e3fc5cc8ed8639de50a4",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/3a/ba/05df14efaa0624fac6b1510e87f5ce446208d2f6ce50270a89b6268aebfe/cattrs-23.1.2-py3-none-any.whl",
         "version": "23.1.2"
       },
+      "certifi": {
+        "sha256": "92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/4c/dd/2234eab22353ffc7d94e8d13177aaa050113286e93e7b40eae01fbf7c3d9/certifi-2023.7.22-py3-none-any.whl",
+        "version": "2023.7.22"
+      },
       "cffi": {
         "sha256": "dd86c085fae2efd48ac91dd7ccffcfc0571387fe1193d33b6394db7ef31fe2a4",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/88/89/c34caf63029fb7628ec2ebd5c88ae0c9bd17db98c812e4065a4d020ca41f/cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "version": "1.15.1"
       },
+      "charset-normalizer": {
+        "sha256": "193cbc708ea3aca45e7221ae58f0fd63f933753a9bfb498a3b474878f12caaad",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/a4/65/057bf29660aae6ade0816457f8db4e749e5c0bfa2366eb5f67db9912fa4c/charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "3.2.0"
+      },
       "cryptography": {
         "sha256": "49c3222bb8f8e800aead2e376cbef687bc9e3cb9b58b29a261210456a7783d83",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/1a/c7/b8193a0859fed883738ae99d33fe90edf05c7e3d0fdb1726f8f53d85859e/cryptography-41.0.2-cp37-abi3-manylinux_2_28_x86_64.whl",
         "version": "41.0.2"
       },
       "docstring-to-markdown": {
         "sha256": "7df6311a887dccf9e770f51242ec002b19f0591994c4783be49d24cdc1df3737",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/c9/b6/6a773dbed890800e32485b0e7d10a5653bc12ad6dabe94bd16cc428314ae/docstring_to_markdown-0.12-py3-none-any.whl",
         "version": "0.12"
       },
+      "docutils": {
+        "sha256": "96f387a2c5562db4476f09f13bbab2192e764cac08ebbf3a34a95d9b1e4a59d6",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/26/87/f238c0670b94533ac0353a4e2a1a771a0cc73277b88bff23d3ae35a256c1/docutils-0.20.1-py3-none-any.whl",
+        "version": "0.20.1"
+      },
       "exceptiongroup": {
         "sha256": "e346e69d186172ca7cf029c8c1d16235aa0e04035e5750b4b95039e65204328f",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/fe/17/f43b7c9ccf399d72038042ee72785c305f6c6fdc6231942f8ab99d995742/exceptiongroup-1.1.2-py3-none-any.whl",
         "version": "1.1.2"
       },
       "gunicorn": {
         "sha256": "3213aa5e8c24949e792bcacfc176fef362e7aac80b76c56f6b5122bf350722f0",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/0e/2a/c3a878eccb100ccddf45c50b6b8db8cf3301a6adede6e31d48e8531cab13/gunicorn-21.2.0-py3-none-any.whl",
         "version": "21.2.0"
       },
+      "idna": {
+        "sha256": "90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+        "version": "3.4"
+      },
+      "imagesize": {
+        "sha256": "0d8d18d08f840c19d0ee7ca1fd82490fdc3729b7ac93f49870406ddde8ef8d8b",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/ff/62/85c4c919272577931d407be5ba5d71c20f0b616d31a0befe0ae45bb79abd/imagesize-1.4.1-py2.py3-none-any.whl",
+        "version": "1.4.1"
+      },
       "jedi": {
         "sha256": "203c1fd9d969ab8f2119ec0a3342e0b49910045abe6af0a3ae83a5764d54639e",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/6d/60/4acda63286ef6023515eb914543ba36496b8929cb7af49ecce63afde09c6/jedi-0.18.2-py2.py3-none-any.whl",
         "version": "0.18.2"
       },
+      "jinja2": {
+        "sha256": "6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/bc/c3/f068337a370801f372f2f8f6bad74a5c140f6fda3d9de154052708dd3c65/Jinja2-3.1.2-py3-none-any.whl",
+        "version": "3.1.2"
+      },
       "lsprotocol": {
         "sha256": "c4f2f77712b50d065b17f9b50d2b88c480dc2ce4bbaa56eea8269dbf54bc9701",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/a8/1d/308276205010acc7c6e3761017c796afbe8ff54205a11661c41ec279afa9/lsprotocol-2023.0.0a2-py3-none-any.whl",
         "version": "2023.0.0a2"
       },
+      "markupsafe": {
+        "sha256": "65c1a9bcdadc6c28eecee2c119465aebff8f7a584dd719facdd9e825ec61ab52",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/12/b3/d9ed2c0971e1435b8a62354b18d3060b66c8cb1d368399ec0b9baa7c0ee5/MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "2.1.3"
+      },
       "mypy": {
         "sha256": "0dde1d180cd84f0624c5dcaaa89c89775550a675aff96b5848de78fb11adabcd",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/04/5c/deeac94fcccd11aa621e6b350df333e1b809b11443774ea67582cc0205da/mypy-1.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "version": "1.4.1"
       },
       "mypy-extensions": {
         "sha256": "4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/2a/e2/5d3f6ada4297caebe1a2add3b126fe800c96f56dbe5d1988a2cbe0b267aa/mypy_extensions-1.0.0-py3-none-any.whl",
         "version": "1.0.0"
       },
       "packaging": {
         "sha256": "994793af429502c4ea2ebf6bf664629d07c1a9fe974af92966e4b8d2df7edc61",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/ab/c3/57f0601a2d4fe15de7a553c00adbc901425661bf048f2a22dfc500caf121/packaging-23.1-py3-none-any.whl",
         "version": "23.1"
       },
       "parso": {
         "sha256": "c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl",
         "version": "0.8.3"
       },
       "pluggy": {
         "sha256": "c2fd55a7d7a3863cba1a013e4e2414658b1d07b6bc57b3919e0c63c9abb99849",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/51/32/4a79112b8b87b21450b066e102d6608907f4c885ed7b04c3fdb085d4d6ae/pluggy-1.2.0-py3-none-any.whl",
         "version": "1.2.0"
       },
       "pycparser": {
         "sha256": "8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl",
         "version": "2.21"
       },
       "pygls": {
         "sha256": "6d278d29fa6559b0f7a448263c85cb64ec6e9369548b02f1a7944060848b21f9",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/6d/c6/ed6aa6fb709abf57b1a75b83f7809792b79320247391dda8f04d2a003548/pygls-1.0.2-py3-none-any.whl",
         "version": "1.0.2"
       },
+      "pygments": {
+        "sha256": "13fc09fa63bc8d8671a6d247e1eb303c4b343eaee81d861f3404db2935653692",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/43/88/29adf0b44ba6ac85045e63734ae0997d3c58d8b1a91c914d240828d0d73d/Pygments-2.16.1-py3-none-any.whl",
+        "version": "2.16.1"
+      },
       "python-lsp-jsonrpc": {
         "sha256": "079b143be64b0a378bdb21dff5e28a8c1393fe7e8a654ef068322d754e545fc7",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/06/ee/754bfd5f6bfe7162c10d3ecb0aeef6f882f91d3231596c83f761a75efd0b/python_lsp_jsonrpc-1.0.0-py3-none-any.whl",
         "version": "1.0.0"
       },
       "python-lsp-server": {
         "sha256": "f8053f7aefcb60af4e91f3fab1a093b15ba0c4688ba67e6ab69e7b73e997b2cb",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/08/31/f48c3acb229340a44eb137b4b336d8f912e178725ffdea84c212c3ec8a5d/python_lsp_server-1.7.4-py3-none-any.whl",
         "version": "1.7.4"
       },
+      "requests": {
+        "sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
+        "version": "2.31.0"
+      },
       "ruff": {
         "sha256": "2e7c15828d09f90e97bea8feefcd2907e8c8ce3a1f959c99f9b4b3469679f33c",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/28/22/14692982c9b85a88c510f9a514184b66e77a335ad7b520fc4910a14c0066/ruff-0.0.280-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "version": "0.0.280"
       },
       "ruff-lsp": {
         "sha256": "7e9a5581a342122dbd83b007d56e5afbf53bef857bb264bd14e1f2de1438412c",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/4c/69/5b229615794cf021a61fb56a9f512f65a8639260c3c9b60f8e3a6bed4e4e/ruff_lsp-0.0.35-py3-none-any.whl",
         "version": "0.0.35"
       },
       "setuptools": {
         "sha256": "11e52c67415a381d10d6b462ced9cfb97066179f0e871399e006c4ab101fc85f",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/c7/42/be1c7bbdd83e1bfb160c94b9cafd8e25efc7400346cf7ccdbdb452c467fa/setuptools-68.0.0-py3-none-any.whl",
         "version": "68.0.0"
       },
+      "snowballstemmer": {
+        "sha256": "c8e1716e83cc398ae16824e5572ae04e0d9fc2c6b985fb0f900f5f0c96ecba1a",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/ed/dc/c02e01294f7265e63a7315fe086dd1df7dacb9f840a804da846b96d01b96/snowballstemmer-2.2.0-py2.py3-none-any.whl",
+        "version": "2.2.0"
+      },
+      "sphinx": {
+        "sha256": "9269f9ed2821c9ebd30e4204f5c2339f5d4980e377bc89cb2cb6f9b17409c20a",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/a6/54/f4fcf7113eb051a46476ecce9485c463f58dbc3887c06dbfe1e67a8ce7c0/sphinx-7.2.5-py3-none-any.whl",
+        "version": "7.2.5"
+      },
+      "sphinxcontrib-applehelp": {
+        "sha256": "094c4d56209d1734e7d252f6e0b3ccc090bd52ee56807a5d9315b19c122ab15d",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c0/0c/261c0949083c0ac635853528bb0070c89e927841d4e533ba0b5563365c06/sphinxcontrib_applehelp-1.0.7-py3-none-any.whl",
+        "version": "1.0.7"
+      },
+      "sphinxcontrib-devhelp": {
+        "sha256": "fe8009aed765188f08fcaadbb3ea0d90ce8ae2d76710b7e29ea7d047177dae2f",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c0/03/010ac733ec7b7f71c1dc88e7115743ee466560d6d85373b56fb9916e4586/sphinxcontrib_devhelp-1.0.5-py3-none-any.whl",
+        "version": "1.0.5"
+      },
+      "sphinxcontrib-htmlhelp": {
+        "sha256": "8001661c077a73c29beaf4a79968d0726103c5605e27db92b9ebed8bab1359e9",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/28/7a/958f8e3e6abe8219d0d1f1224886de847ab227b218f4a07b61bc337f64be/sphinxcontrib_htmlhelp-2.0.4-py3-none-any.whl",
+        "version": "2.0.4"
+      },
+      "sphinxcontrib-jsmath": {
+        "sha256": "2ec2eaebfb78f3f2078e73666b1415417a116cc848b72e5172e596c871103178",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl",
+        "version": "1.0.1"
+      },
+      "sphinxcontrib-qthelp": {
+        "sha256": "bf76886ee7470b934e363da7a954ea2825650013d367728588732c7350f49ea4",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/1f/e5/1850f3f118e95581c1e30b57028ac979badee1eb29e70ee72b0241f5a185/sphinxcontrib_qthelp-1.0.6-py3-none-any.whl",
+        "version": "1.0.6"
+      },
+      "sphinxcontrib-serializinghtml": {
+        "sha256": "9b36e503703ff04f20e9675771df105e58aa029cfcbc23b8ed716019b7416ae1",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/95/d6/2e0bda62b2a808070ac922d21a950aa2cb5e4fcfb87e5ff5f86bc43a2201/sphinxcontrib_serializinghtml-1.1.9-py3-none-any.whl",
+        "version": "1.1.9"
+      },
       "tomli": {
         "sha256": "939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl",
         "version": "2.0.1"
       },
       "typeguard": {
         "sha256": "bbe993854385284ab42fd5bd3bee6f6556577ce8b50696d6cb956d704f286c8e",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/e2/62/7d206b0ac6fcbb163215ecc622a54eb747f85ad86d14bc513a834442d0f6/typeguard-3.0.2-py3-none-any.whl",
         "version": "3.0.2"
       },
       "typing-extensions": {
         "sha256": "440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl",
         "version": "4.7.1"
       },
       "ujson": {
         "sha256": "40931d7c08c4ce99adc4b409ddb1bbb01635a950e81239c2382cfe24251b127a",
+        "type": "url",
         "url": "https://files.pythonhosted.org/packages/78/90/bfa62616208bd5195a113c0aa4e42c9f471e69edfc48feba6a0ab494cccb/ujson-5.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "version": "5.8.0"
+      },
+      "urllib3": {
+        "sha256": "de7df1803967d2c2a98e4b11bb7d6bd9210474c46e8a0401514e3a42a75ebde4",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/9b/81/62fd61001fa4b9d0df6e31d47ff49cfa9de4af03adecf339c7bc30656b37/urllib3-2.0.4-py3-none-any.whl",
+        "version": "2.0.4"
       }
     },
     "targets": {
       "default": {
+        "alabaster": [],
         "attrs": [],
+        "babel": [],
         "cattrs": [
           "attrs",
           "exceptiongroup",
           "typing-extensions"
         ],
+        "certifi": [],
         "cffi": [
           "pycparser"
         ],
+        "charset-normalizer": [],
         "cryptography": [
           "cffi"
         ],
         "docstring-to-markdown": [],
+        "docutils": [],
         "exceptiongroup": [],
         "gunicorn": [
           "packaging"
         ],
+        "idna": [],
+        "imagesize": [],
         "jedi": [
           "parso"
+        ],
+        "jinja2": [
+          "markupsafe"
         ],
         "lsprotocol": [
           "attrs",
           "cattrs"
         ],
+        "markupsafe": [],
         "mypy": [
           "mypy-extensions",
           "tomli",
@@ -167,6 +323,7 @@
           "lsprotocol",
           "typeguard"
         ],
+        "pygments": [],
         "python-lsp-jsonrpc": [
           "ujson"
         ],
@@ -178,6 +335,12 @@
           "setuptools",
           "ujson"
         ],
+        "requests": [
+          "certifi",
+          "charset-normalizer",
+          "idna",
+          "urllib3"
+        ],
         "ruff": [],
         "ruff-lsp": [
           "lsprotocol",
@@ -186,12 +349,38 @@
           "typing-extensions"
         ],
         "setuptools": [],
+        "snowballstemmer": [],
+        "sphinx": [
+          "alabaster",
+          "babel",
+          "docutils",
+          "imagesize",
+          "jinja2",
+          "packaging",
+          "pygments",
+          "requests",
+          "snowballstemmer",
+          "sphinxcontrib-applehelp",
+          "sphinxcontrib-devhelp",
+          "sphinxcontrib-htmlhelp",
+          "sphinxcontrib-jsmath",
+          "sphinxcontrib-qthelp"
+        ],
+        "sphinxcontrib-applehelp": [],
+        "sphinxcontrib-devhelp": [],
+        "sphinxcontrib-htmlhelp": [],
+        "sphinxcontrib-jsmath": [],
+        "sphinxcontrib-qthelp": [],
+        "sphinxcontrib-serializinghtml": [
+          "sphinx"
+        ],
         "tomli": [],
         "typeguard": [
           "typing-extensions"
         ],
         "typing-extensions": [],
-        "ujson": []
+        "ujson": [],
+        "urllib3": []
       }
     }
   }

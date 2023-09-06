@@ -1,13 +1,16 @@
 {
+  description = "Project with two python distributions using dream2nix.";
+
+  inputs.dream2nix.url = "github:nix-community/dream2nix";
   # NOTE: Is flake-utils still the way to go?
   inputs.flake-utils.url = "github:numtide/flake-utils";
-  inputs.dream2nix.url = "github:nix-community/dream2nix/flo-hack";
+  inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
 
-  outputs = {
+  outputs = inputs @ {
     self,
-    nixpkgs,
-    flake-utils,
     dream2nix,
+    flake-utils,
+    nixpkgs,
   }:
     flake-utils.lib.eachDefaultSystem (
       system: let
@@ -18,11 +21,13 @@
 
         setupModule = {config, ...}: {
           imports = [
-            dream2nix.modules.drv-parts.pip
+            dream2nix.modules.dream2nix.pip
           ];
 
-          lock.repoRoot = ./.;
-          lock.lockFileRel = "/nix/${config.name}-${config.deps.stdenv.system}-lock.json";
+          paths.projectRoot = ./.;
+          paths.projectRootFile = ".git";
+          paths.package = "/nix";
+          paths.lockFile = "${config.name}-${config.deps.stdenv.system}-lock.json";
 
           deps = {nixpkgs, ...}: {
             inherit (nixpkgs)
@@ -51,6 +56,7 @@
           pip = {
             # NOTE: It would be nice to optionally passed via CLI, defaulting to today.
             pypiSnapshotDate = "2023-09-06";
+            flattenDependencies = true;
             requirementsFiles = [
               "code/${config.name}/requirements-dev.txt"
             ];
