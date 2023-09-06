@@ -111,11 +111,6 @@
                 fi
               done
 
-              # Additional dev tools, causing problems via d2n because of pip/setuptools dependency.
-              "$DIRENVPY/bin/python" -m pip install \
-                pip-tools \
-                setuptools-scm
-
               # Dev install of our packages.
               "$DIRENVPY/bin/python" -m pip install \
                 --disable-pip-version-check \

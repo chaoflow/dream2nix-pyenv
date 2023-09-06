@@ -19,6 +19,12 @@
         "url": "https://files.pythonhosted.org/packages/df/c4/1088865e0246d7ecf56d819a233ab2b72f7d6ab043965ef327d0731b5434/Babel-2.12.1-py3-none-any.whl",
         "version": "2.12.1"
       },
+      "build": {
+        "sha256": "f4c7b45e70e2c345e673902253d435a9a7729ff09ab574924420cf120c60bcc9",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/75/59/2b0c77e78f754e4443126349e15a9f12716a34e9dcce8e8d61b1b6d553e7/build-1.0.0-py3-none-any.whl",
+        "version": "1.0.0"
+      },
       "cattrs": {
         "sha256": "b2bb14311ac17bed0d58785e5a60f022e5431aca3932e3fc5cc8ed8639de50a4",
         "type": "url",
@@ -43,11 +49,17 @@
         "url": "https://files.pythonhosted.org/packages/a4/65/057bf29660aae6ade0816457f8db4e749e5c0bfa2366eb5f67db9912fa4c/charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
         "version": "3.2.0"
       },
-      "cryptography": {
-        "sha256": "49c3222bb8f8e800aead2e376cbef687bc9e3cb9b58b29a261210456a7783d83",
+      "click": {
+        "sha256": "ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/1a/c7/b8193a0859fed883738ae99d33fe90edf05c7e3d0fdb1726f8f53d85859e/cryptography-41.0.2-cp37-abi3-manylinux_2_28_x86_64.whl",
-        "version": "41.0.2"
+        "url": "https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl",
+        "version": "8.1.7"
+      },
+      "cryptography": {
+        "sha256": "42cb413e01a5d36da9929baa9d70ca90d90b969269e5a12d39c1e0d475010116",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/46/74/f9eba8c947f57991b5dd5e45797fdc68cc70e444c32e6b952b512d42aba5/cryptography-41.0.3-cp37-abi3-manylinux_2_28_x86_64.whl",
+        "version": "41.0.3"
       },
       "docstring-to-markdown": {
         "sha256": "7df6311a887dccf9e770f51242ec002b19f0591994c4783be49d24cdc1df3737",
@@ -62,10 +74,10 @@
         "version": "0.20.1"
       },
       "exceptiongroup": {
-        "sha256": "e346e69d186172ca7cf029c8c1d16235aa0e04035e5750b4b95039e65204328f",
+        "sha256": "343280667a4585d195ca1cf9cef84a4e178c4b6cf2274caef9859782b567d5e3",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/fe/17/f43b7c9ccf399d72038042ee72785c305f6c6fdc6231942f8ab99d995742/exceptiongroup-1.1.2-py3-none-any.whl",
-        "version": "1.1.2"
+        "url": "https://files.pythonhosted.org/packages/ad/83/b71e58666f156a39fb29417e4c8ca4bc7400c0dd4ed9e8842ab54dc8c344/exceptiongroup-1.1.3-py3-none-any.whl",
+        "version": "1.1.3"
       },
       "gunicorn": {
         "sha256": "3213aa5e8c24949e792bcacfc176fef362e7aac80b76c56f6b5122bf350722f0",
@@ -98,10 +110,10 @@
         "version": "3.1.2"
       },
       "lsprotocol": {
-        "sha256": "c4f2f77712b50d065b17f9b50d2b88c480dc2ce4bbaa56eea8269dbf54bc9701",
+        "sha256": "2896c5a30c34846e3d5687e35715961f49bf7b92a36e4fb2b707ff65f19087f7",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/a8/1d/308276205010acc7c6e3761017c796afbe8ff54205a11661c41ec279afa9/lsprotocol-2023.0.0a2-py3-none-any.whl",
-        "version": "2023.0.0a2"
+        "url": "https://files.pythonhosted.org/packages/61/da/57a4008b7f27dbf46a35619e4cf2f17767d400d7407e880ea2f3eadcc6b0/lsprotocol-2023.0.0a3-py3-none-any.whl",
+        "version": "2023.0.0a3"
       },
       "markupsafe": {
         "sha256": "65c1a9bcdadc6c28eecee2c119465aebff8f7a584dd719facdd9e825ec61ab52",
@@ -110,10 +122,10 @@
         "version": "2.1.3"
       },
       "mypy": {
-        "sha256": "0dde1d180cd84f0624c5dcaaa89c89775550a675aff96b5848de78fb11adabcd",
+        "sha256": "a9ec1f695f0c25986e6f7f8778e5ce61659063268836a38c951200c57479cc12",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/04/5c/deeac94fcccd11aa621e6b350df333e1b809b11443774ea67582cc0205da/mypy-1.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-        "version": "1.4.1"
+        "url": "https://files.pythonhosted.org/packages/6c/92/68315e0aec041c4a5c720289f6c3ff1234742362659f3229e1668898c250/mypy-1.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "1.5.1"
       },
       "mypy-extensions": {
         "sha256": "4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d",
@@ -133,11 +145,23 @@
         "url": "https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl",
         "version": "0.8.3"
       },
-      "pluggy": {
-        "sha256": "c2fd55a7d7a3863cba1a013e4e2414658b1d07b6bc57b3919e0c63c9abb99849",
+      "pip": {
+        "sha256": "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/51/32/4a79112b8b87b21450b066e102d6608907f4c885ed7b04c3fdb085d4d6ae/pluggy-1.2.0-py3-none-any.whl",
-        "version": "1.2.0"
+        "url": "https://files.pythonhosted.org/packages/50/c2/e06851e8cc28dcad7c155f4753da8833ac06a5c704c109313b8d5a62968a/pip-23.2.1-py3-none-any.whl",
+        "version": "23.2.1"
+      },
+      "pip-tools": {
+        "sha256": "8717693288720a8c6ebd07149c93ab0be1fced0b5191df9e9decd3263e20d85e",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/e8/df/47e6267c6b5cdae867adbdd84b437393e6202ce4322de0a5e0b92960e1d6/pip_tools-7.3.0-py3-none-any.whl",
+        "version": "7.3.0"
+      },
+      "pluggy": {
+        "sha256": "d89c696a773f8bd377d18e5ecda92b7a3793cbe66c87060a6fb58c7b6e1061f7",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/05/b8/42ed91898d4784546c5f06c60506400548db3f7a4b3fb441cba4e5c17952/pluggy-1.3.0-py3-none-any.whl",
+        "version": "1.3.0"
       },
       "pycparser": {
         "sha256": "8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9",
@@ -156,6 +180,12 @@
         "type": "url",
         "url": "https://files.pythonhosted.org/packages/43/88/29adf0b44ba6ac85045e63734ae0997d3c58d8b1a91c914d240828d0d73d/Pygments-2.16.1-py3-none-any.whl",
         "version": "2.16.1"
+      },
+      "pyproject-hooks": {
+        "sha256": "283c11acd6b928d2f6a7c73fa0d01cb2bdc5f07c57a2eeb6e83d5e56b97976f8",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/d5/ea/9ae603de7fbb3df820b23a70f6aff92bf8c7770043254ad8d2dc9d6bcba4/pyproject_hooks-1.0.0-py3-none-any.whl",
+        "version": "1.0.0"
       },
       "python-lsp-jsonrpc": {
         "sha256": "079b143be64b0a378bdb21dff5e28a8c1393fe7e8a654ef068322d754e545fc7",
@@ -176,22 +206,28 @@
         "version": "2.31.0"
       },
       "ruff": {
-        "sha256": "2e7c15828d09f90e97bea8feefcd2907e8c8ce3a1f959c99f9b4b3469679f33c",
+        "sha256": "d3a810a79b8029cc92d06c36ea1f10be5298d2323d9024e1d21aedbf0a1a13e5",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/28/22/14692982c9b85a88c510f9a514184b66e77a335ad7b520fc4910a14c0066/ruff-0.0.280-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-        "version": "0.0.280"
+        "url": "https://files.pythonhosted.org/packages/ac/27/448521cb90b51890f2a138a258e427211e1c04c71a3da29e8ec47686ba55/ruff-0.0.287-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "version": "0.0.287"
       },
       "ruff-lsp": {
-        "sha256": "7e9a5581a342122dbd83b007d56e5afbf53bef857bb264bd14e1f2de1438412c",
+        "sha256": "61feb3429b53254ce4dec3a6c79cbc08355eff11a6b6dbf62a8b39a6503a5e3f",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/4c/69/5b229615794cf021a61fb56a9f512f65a8639260c3c9b60f8e3a6bed4e4e/ruff_lsp-0.0.35-py3-none-any.whl",
-        "version": "0.0.35"
+        "url": "https://files.pythonhosted.org/packages/52/7e/10769198b42c79bfcf762f43a15b32de018c00c44cca49ef16d4393d5196/ruff_lsp-0.0.38-py3-none-any.whl",
+        "version": "0.0.38"
       },
       "setuptools": {
-        "sha256": "11e52c67415a381d10d6b462ced9cfb97066179f0e871399e006c4ab101fc85f",
+        "sha256": "3d8083eed2d13afc9426f227b24fd1659489ec107c0e86cec2ffdde5c92e790b",
         "type": "url",
-        "url": "https://files.pythonhosted.org/packages/c7/42/be1c7bbdd83e1bfb160c94b9cafd8e25efc7400346cf7ccdbdb452c467fa/setuptools-68.0.0-py3-none-any.whl",
-        "version": "68.0.0"
+        "url": "https://files.pythonhosted.org/packages/4f/ab/0bcfebdfc3bfa8554b2b2c97a555569c4c1ebc74ea288741ea8326c51906/setuptools-68.1.2-py3-none-any.whl",
+        "version": "68.1.2"
+      },
+      "setuptools-scm": {
+        "sha256": "73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/1d/66/8f42c941be949ef2b22fe905d850c794e7c170a526023612aad5f3a121ad/setuptools_scm-7.1.0-py3-none-any.whl",
+        "version": "7.1.0"
       },
       "snowballstemmer": {
         "sha256": "c8e1716e83cc398ae16824e5572ae04e0d9fc2c6b985fb0f900f5f0c96ecba1a",
@@ -270,6 +306,12 @@
         "type": "url",
         "url": "https://files.pythonhosted.org/packages/9b/81/62fd61001fa4b9d0df6e31d47ff49cfa9de4af03adecf339c7bc30656b37/urllib3-2.0.4-py3-none-any.whl",
         "version": "2.0.4"
+      },
+      "wheel": {
+        "sha256": "75909db2664838d015e3d9139004ee16711748a52c8f336b52882266540215d8",
+        "type": "url",
+        "url": "https://files.pythonhosted.org/packages/b8/8b/31273bf66016be6ad22bb7345c37ff350276cfd46e389a0c2ac5da9d9073/wheel-0.41.2-py3-none-any.whl",
+        "version": "0.41.2"
       }
     },
     "targets": {
@@ -277,6 +319,11 @@
         "alabaster": [],
         "attrs": [],
         "babel": [],
+        "build": [
+          "packaging",
+          "pyproject-hooks",
+          "tomli"
+        ],
         "cattrs": [
           "attrs",
           "exceptiongroup",
@@ -287,6 +334,7 @@
           "pycparser"
         ],
         "charset-normalizer": [],
+        "click": [],
         "cryptography": [
           "cffi"
         ],
@@ -317,6 +365,15 @@
         "mypy-extensions": [],
         "packaging": [],
         "parso": [],
+        "pip": [],
+        "pip-tools": [
+          "build",
+          "click",
+          "pip",
+          "setuptools",
+          "tomli",
+          "wheel"
+        ],
         "pluggy": [],
         "pycparser": [],
         "pygls": [
@@ -324,6 +381,9 @@
           "typeguard"
         ],
         "pygments": [],
+        "pyproject-hooks": [
+          "tomli"
+        ],
         "python-lsp-jsonrpc": [
           "ujson"
         ],
@@ -349,6 +409,12 @@
           "typing-extensions"
         ],
         "setuptools": [],
+        "setuptools-scm": [
+          "packaging",
+          "setuptools",
+          "tomli",
+          "typing-extensions"
+        ],
         "snowballstemmer": [],
         "sphinx": [
           "alabaster",
@@ -380,7 +446,8 @@
         ],
         "typing-extensions": [],
         "ujson": [],
-        "urllib3": []
+        "urllib3": [],
+        "wheel": []
       }
     }
   }
