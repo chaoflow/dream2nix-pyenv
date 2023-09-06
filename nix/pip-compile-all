@@ -2,7 +2,7 @@
 
 set -eux
 
-cd "$(dirname "$(realpath "$0")")"
+cd "$(dirname "$(realpath "$0")")/.."
 
 for dist in \
     code/pypkg1 \

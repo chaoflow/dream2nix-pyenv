@@ -2,7 +2,7 @@
 
 set -eux
 
-cd "$(dirname "$(realpath "$0")")"
+cd "$(dirname "$(realpath "$0")")/.."
 
 for name in \
     pypkg1 \
